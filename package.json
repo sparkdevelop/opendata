@@ -1,5 +1,23 @@
 {
   "dependencies": {
     "express": "^4.16.4"
-  }
+  },
+  "name": "opendata",
+  "description": "<p>package.json中包含所有依赖项信息</p> <p>依赖项node_modules不纳入版本控制中</p> <p>重建项目只需运行npm install或cnpm install</p>",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sparkdevelop/opendata.git"
+  },
+  "author": "Rylan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sparkdevelop/opendata/issues"
+  },
+  "homepage": "https://github.com/sparkdevelop/opendata#readme"
 }

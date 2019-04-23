@@ -1,5 +1,13 @@
 var express = require('express');
+const mongoose = require('mongoose');
 var app = express();
+
+//DB
+const db = require('./config/keys').mongoURI;
+
+mongoose.connect(db)
+        .then(() => console.log("connected"))
+        .catch( err => console.log(err));
  
 app.get('/', function (req, res) {
    res.send('Hello World2');
